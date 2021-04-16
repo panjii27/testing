@@ -49,7 +49,7 @@ services:
       retries: 120
 
   proxy:
-    image: asbiamrullah19/proxy-custom
+    image: nginx:1.15.6
     depends_on:
       - web
     ports:

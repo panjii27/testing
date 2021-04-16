@@ -22,7 +22,7 @@ services:
       retries: 3
 
   mysql:
-    image: panji27/testing6
+    image: mysql:5.7
     secrets:
       - root
       - database

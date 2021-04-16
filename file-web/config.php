@@ -1,6 +1,6 @@
 <?php
 
-$db_host = "db";
+$db_host = "mysql";
 $db_user = "cilsykuasaiuser";
 $db_pass = "cilsykuasaipassword";
 $db_name = "dbkuasai";

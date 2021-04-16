@@ -1,7 +1,6 @@
 version: "3.7"
 services:
   web:
-    dockerfile: Dockerfile
     image: panji27/testing3
     working_dir: /var/www/html
     volumes:

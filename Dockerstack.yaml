@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   web:
-    image: panji27/testing3
+    image: panji27/testing6
     working_dir: /var/www/html
     volumes:
        - ./file-web:/var/www/html/
@@ -22,6 +22,7 @@ services:
       retries: 3
 
   mysql:
+    image: panji27/testing6
     secrets:
       - root
       - database
